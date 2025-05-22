@@ -1,0 +1,50 @@
+<h2 class="display-5"> Random number Generator </h2>
+<p class="lead"> Gera um número aleatório dado um limite mínimo e máximo </p>
+<form action="#" method="post">
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-md-6">
+                <label for="min"> Valor mínimo </label>
+                <input class="form-control" type="number" name="val_min" id="min" required>
+            </div>
+            <div class="col-md-6">
+                <label for="max"> Valor máximo </label>
+                <input class="form-control" type="number" name="val_max" id="max" required>
+            </div>
+        </div>
+        <div class="container text-center mt-5">
+            <div class="row align-items-center">
+                <div class="col"></div>
+                <div class="col">
+                    <input type="submit" class="btn btn-lg btn-primary" value="Gerar">
+                </div>
+                <div class="col"></div>
+            </div>
+        </div>
+    </div>
+    
+</form>
+
+<?php
+    if (!empty($_POST)) {
+        $result = rand($_POST['val_min'], $_POST['val_max']);
+        //header('location: /rn_generator');
+
+        ?>            
+
+        <div class="container">
+            <div class="row mt-3" style="background-color: #dddddd;">
+                <div class="col">
+                </div>
+                <div class="col text-center">
+                    <label for=""> Resultado </label>
+                    <input type="text" class="form-control-plaintext display-5 text-center" style="font-size: 100px;" id="" value="<?=$result;?>" readonly>
+                </div>
+                <div class="col">
+                </div>
+            </div>
+        </div>
+            
+        <?php
+    }
+?>

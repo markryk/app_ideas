@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&family=Teko:wght@400;500&display=swap');
+
+@media only screen and (max-width: 768px) {
+	div.MarkRyk {
+  		right: 50px;
+  	}
+}
+.MarkRyk {
+	position: relative;
+	text-align: right;
+	font-family: 'Teko', cursive;
+	font-size: 25px;
+	font-weight: 400;
+	color: black;
+	right: -50px;
+	top: 70px;
+}

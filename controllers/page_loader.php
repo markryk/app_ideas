@@ -14,6 +14,7 @@
 			match ($_GET['op']) {
 				'csv2json' => include_once $GLOBALS['project_path']."views/csv2json/index.php",
 				'json2csv' => include_once $GLOBALS['project_path']."views/json2csv/index.php",
+				'rn_generator' => include_once $GLOBALS['project_path']."views/rn_generator/index.phtml",
 				default => include_once $GLOBALS['project_path']."views/erro.phtml",
 				// => ,
 			};

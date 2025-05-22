@@ -6,7 +6,6 @@
 <head>
 	<!--Css p/ Bootstrap -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<title> Kit desenvolvimento </title>
 </head>
@@ -15,7 +14,7 @@
 		<div class="row">
 			<div class="col-md-1"></div>
 			<div class="col-md-9">
-				<div class="jumbotron" style="background-color: #5282C4;">
+				<div class="jumbotron" style="background-color: #bbbbbb;">
 					<div class="container text-center">
 						<div class="row">
 							<div class="col"></div>
@@ -32,7 +31,7 @@
                         <?php load_pages(); ?>
 
 
-                    <a href="https://github.com/markryk" class="MarkRyk" target="_blank"> MarkRyk </a>				
+                    <a href="https://github.com/markryk" class="MarkRyk" target="_blank"> MarkRyk </a>
 			</div>
 			<div class="col-md-1"></div>
 		</div>
